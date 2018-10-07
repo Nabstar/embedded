@@ -194,7 +194,7 @@ footer {
 
 .copyright {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 .article {
@@ -249,7 +249,8 @@ nav li a:active {
     }
 
     .copyright {
-        font-size: 2.5vw;
+        text-align: center;
+        font-size: 1.5vw;
     }
 
     #intro-section p {
