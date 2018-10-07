@@ -140,21 +140,15 @@ footer {
 
 #intro-section {
     margin: auto;
-    margin-bottom: 50px;
     width: 78.125%; /* 960/750 */
-    background-color: #f9f9f9bb;
-    border-radius: 30px;
     padding: 20px;
 }
 
-#intro-section h4 {
-    font-weight: bold;
-}
-
-#intro-section .intro {
+#intro-section p {
     font-family: 'geekybat';
     font-weight: normal;
     font-size: 2vw;
+    margin-bottom: 20px;
 }
 
 .blog-section {
@@ -245,4 +239,18 @@ nav li a:active {
 
 #right-align {
     text-align: right;
+}
+
+@media screen and (min-width: 1023px) {
+    .footer-link a {
+        color: #2386a5;
+        font-size: 1.3vw;
+    }
+
+    #intro-section p {
+        font-family: 'geekybat';
+        font-weight: normal;
+        font-size: 1vw;
+        margin-bottom: 20px;
+    }
 }
