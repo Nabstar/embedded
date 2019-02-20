@@ -9,7 +9,7 @@ email: "lukmaan.me@gmail.com"
 description: >-
     Howto's on device drivers, embedded system, raspberry pi,
     linux.
-#baseurl: "/blog"
+baseurl: "/blog"
 url: "http://embeddedfreak.com"
 github_username: nabstar
 
