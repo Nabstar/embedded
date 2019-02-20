@@ -1,0 +1,17 @@
+# site settings
+
+## blog pages
+
+baseurl: 
+
+title: "Embedded Freak"
+email: "lukmaan.me@gmail.com"
+description: >-
+    Howto's on device drivers, embedded system, raspberry pi,
+    linux.
+#baseurl: "/blog"
+url: "http://embeddedfreak.com"
+github_username: nabstar
+
+markdown: kramdown
+permalink: pretty

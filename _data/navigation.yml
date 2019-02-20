@@ -1,0 +1,11 @@
+- name: Home/
+  link: /
+
+- name: Project/
+  link: /project/index.html
+
+- name: Explore/
+  link: /explore/index.html
+
+- name: Archieve/
+  link: /archieve/index.html
