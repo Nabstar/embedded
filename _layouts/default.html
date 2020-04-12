@@ -2,16 +2,20 @@
 <html>
     {% include default-head.html %}
 
-    <body>    
-        {% include default-header.html %}
+    <body id="wrapper">    
 
         <main>
+
+            {% include default-header.html %}
+
             {% include default-navigation.html %}
 
             {{ content }}
             
+            {% include default-footer.html %}
+
         </main>
 
-        {% include default-footer.html %}
     </body>
+
 </html>
