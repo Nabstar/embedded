@@ -1,11 +1,14 @@
 - name: Home
   link: /
 
-- name: Project
-  link: /project/index.html
+- name: About
+  link: /about/index.html
 
-- name: Explore
-  link: /explore/index.html
+- name: Projects
+  link: /projects/index.html
+
+- name: Contact Me
+  link: /contact/index.html
 
 - name: Archieve
   link: /archieve/index.html
