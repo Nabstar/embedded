@@ -1,25 +1,44 @@
 <!doctype html>
+
 <html>
-    {% include post-head.html %}
+
+    {% include default-head.html %}
+
     <body>    
-        {% include post-navigation.html %}
-        <main>
-            <article class="blog-article">
-                <header class="article-header">
-                    <h1 class="article-title">{{ page.title }}</h1>
-                    <p class="article-meta">{{ page.date | date_to_string }}</p>
-                </header>
+
+        <main class="wrapper">
+
+            {% include default-header.html %}
+
+            {% include default-navigation.html %}
+
+            <section class="main-section">
+
+                <article class="blog-article">
+                    <header class="article-header">
+                        <h3 class="article-title">{{ page.title }}</h1>
+                        <p class="article-meta">{{ page.date | date_to_string }}</p>
+                    </header>
 
                     <div class="article-content">
+
                         {{ content }}
+
                     </div>
-            
-                <footer class="article-footer">
-                    <h1>Conclusion</h1>
-                </footer>
-            </article>
+                
+                    <footer class="article-footer">
+                        
+                    </footer>
+                </article>
+
+            </section>
+
+            {% include default-footer.html %}
+
         </main>
-        {% include post-footer.html %}
+
         <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+
     </body>
+
 </html>

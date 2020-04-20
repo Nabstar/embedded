@@ -1,5 +1,5 @@
 <nav class="grouping">
-    <ul class="navigation">
+    <ul class="navigation-ul">
         {% for item in site.data.navigation %}
         {% assign url = page.url | prepend:site.baseurl %}
         <li><a href="{{ item.link }}" {% if url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>

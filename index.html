@@ -4,14 +4,22 @@ title: Home
 ---
 
 <section class="main-section">
+
+    <h3 class="page-header">{{ page.title }}</h3>
+
     <section class="blog-section">
+
       {% for post in site.posts %}
+
         <article class="blog-article">
-          <h4 class="article">
+          <h3 class="article">
             <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-          </h4>
+          </h3>
           <span class="date-section">{{ post.date | date_to_string }}</span>
         </article>
+
       {% endfor %}
+
     </section>
+
 </section>

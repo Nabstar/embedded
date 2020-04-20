@@ -23,6 +23,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -30,14 +31,10 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    line-height: 1.4;
-    font-family: Arial, Helvertica, sans-serif;
+    line-height: 140%;
+    font-family: sans-serif;
     display: grid;
     /* grid-template-columns: 980px; */
-}
-
-ol, ul {
-    list-style: none;
 }
 
 blockquote, q {
@@ -102,7 +99,7 @@ pre {
     font-weight: bold;
 }
 
-header {
+.main-header {
     margin: 24px 0px 20px 62px;
     font-size: 28px;
     font-weight: bold;
@@ -111,15 +108,37 @@ header {
     text-transform: uppercase;
 }
 
-header a {
+.main-header a {
     text-decoration: none;
 }
 
-header img {
+.main-header img {
 
     float: left;
     margin: 0px 30px 0px 0px;
 
+}
+
+.page-header {
+
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.article-title {
+
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.article-header {
+    margin-bottom: 20px;
 }
 
 img {
@@ -131,6 +150,21 @@ img {
 
 a {
     color: black;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.archieve-ul {
+    display: block;
+    list-style-type: square;
+    padding-left: 1em;
+    margin-left: 1em;
 }
 
 main {
@@ -159,12 +193,10 @@ footer {
 }
 
 .blog-section a {
-    text-decoration: none;
-    color: #2386a5;
 }
 
 .date-section {
-    color: #a5a9ab;
+    color: #6c6d6d; 
 }
 
 .hr {
@@ -205,11 +237,12 @@ footer {
     float: right;
 }
 
-.navigation {
+.navigation-ul{
+    list-style: none;
  
 }
 
-.navigation li a {
+.navigation-ul li a {
     margin-bottom: 10px;
     clear: both;
     display: block;
