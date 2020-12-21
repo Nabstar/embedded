@@ -150,6 +150,7 @@ img {
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 p {
@@ -235,6 +236,10 @@ footer {
 .main-section {
     width: 680px;
     float: right;
+}
+
+.languages {
+    margin-left: 50px;
 }
 
 .navigation-ul{
