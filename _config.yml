@@ -12,5 +12,9 @@ description: >-
 url: "http://lukzy.xyz"
 github_username: nabstar
 
+#paginate: 5
+
+#plugins: ["jekyll-paginate"]
+
 markdown: kramdown
 permalink: pretty

@@ -119,6 +119,13 @@ pre {
 
 }
 
+.rss {
+
+    float: right;
+    text-transform: lowercase;
+
+}
+
 .page-header {
 
     margin-bottom: 30px;
