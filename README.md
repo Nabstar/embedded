@@ -1,2 +1,2 @@
-This project is a personal blog of mine to be hosted soon.
+This project is a personal blog of mine.
 Happy blogging!
