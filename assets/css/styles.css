@@ -32,8 +32,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 140%;
-    height : 100vh;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
     display: grid;
     /* grid-template-columns: 980px; */
 }
@@ -258,6 +258,13 @@ footer {
 
 .visitorname input {
     font-size: 12pt;
+r   display: block;
+    width: 300px;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
 }
 
 .visitorname label {
@@ -266,6 +273,19 @@ footer {
 
 .visitorcomment {
     margin-bottom: 15px;
+}
+
+.visitorcomment textarea {
+    
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+
 }
 
 form.commentform {
