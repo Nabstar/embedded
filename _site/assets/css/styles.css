@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 140%;
+    height : 100vh;
     font-family: sans-serif;
     display: grid;
     /* grid-template-columns: 980px; */
@@ -272,14 +273,13 @@ form.commentform {
 }
 
 form button {
-  padding: 10px;
+  padding: 6px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   background-color: black;
   color: white;
-  border-radius: 4px;
   cursor: pointer;
-  width: 160px;
+  width: 100px;
 }
 
 .languages {
