@@ -1,6 +1,10 @@
 # site settings
 
 ## blog pages
+#
+exclude: 
+  - vendor
+  - bundle
 
 baseurl: 
 
@@ -10,11 +14,15 @@ description: >-
     Howto's on device drivers, embedded system, raspberry pi,
     linux.
 url: "http://lukzy.xyz"
+staticman_url: https://api-bridge-staticman.herokuapp.com/v2/entry/Nabstar/blog/master/comments
 github_username: nabstar
 
 #paginate: 5
 
-#plugins: ["jekyll-paginate"]
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
 
 markdown: kramdown
 permalink: pretty

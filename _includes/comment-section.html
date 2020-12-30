@@ -1,0 +1,17 @@
+<h3>Tell us your thought</h3>
+
+<form action="https://api-bridge-staticman.herokuapp.com/v2/entry/Nabstar/blog/master/comments" method="post" class="commentform">
+
+    <div class="visitorname">
+        <label for="name">Name </label> <br>
+        <input type="text" name="fields[name]" id="name" required> <br>
+    </div>
+
+    <div class="visitorcomment">
+        <label for="thought">Thought </label> <br>
+        <textarea id="thought" name="fields[message]" rows="5" cols="33">
+        </textarea>
+    </div>
+
+    <button type="submit" disabled >Submit</button>
+</form>
