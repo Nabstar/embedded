@@ -293,13 +293,13 @@ form.commentform {
 }
 
 form button {
-  padding: 6px;
+  padding: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   background-color: black;
   color: white;
   cursor: pointer;
-  width: 100px;
+  width: 120px;
 }
 
 .languages {
