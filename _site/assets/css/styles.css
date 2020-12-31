@@ -338,7 +338,7 @@ nav li a:active {
 }
 
 .current {
-    background-color: grey;
+    background-color: #000;
     color: white;
 }
 
