@@ -1,15 +1,5 @@
-window.addEventListener( "load", function () {
+commentform.onsubmit = async(e) => {
 
-    const name = document.getElementById( "name" );
-    const thought = document.getElementById( "thought" );
+    console.log("form submitted");
 
-    submitComment("lukman", "awesome content");
-
-    function submitComment(name, comment) {
-
-        console.log(name + " " + comment);
-
-    }
-
-});
-
+}

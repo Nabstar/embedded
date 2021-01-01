@@ -88,27 +88,23 @@
             <section class="comment-section">
                 <h3>Tell us your thought</h3>
 
+<form class="commentform" action="https://api-bridge-staticman.herokuapp.com/v2/entry/Nabstar/blog/master/comments" method="POST">
+    <div class="visitorname">
+        <label for="name">
+            Name 
+            <input id="name" type="text" name="fields[name]" required></input>
+        </label>
+    </div>
 
-<div class="commentform">
-    <form action="https://api-bridge-staticman.herokuapp.com/v2/entry/Nabstar/blog/master/comments" method="POST">
-        <div class="visitorname">
-            <label for="name">
-                Name 
-                <input id="name" type="text" name="fields[name]" required></input>
-            </label>
-        </div>
+    <div class="visitorcomment">
+        <label for="thought">
+            Thought 
+            <textarea id="thought" name="fields[message]" rows="5" cols="33"></textarea>
+        </label>
+    </div>
 
-        <div class="visitorcomment">
-            <label for="thought">
-                Thought 
-                <textarea id="thought" name="fields[message]" rows="5" cols="33"></textarea>
-            </label>
-        </div>
-
-        <button type="submit">Submit</button>
-    </form>
-</div>
-
+    <button type="submit">Submit</button>
+</form>
 
             </section>
 
