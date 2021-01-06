@@ -1,6 +1,10 @@
-<h3>Tell us your thought</h3>
-
-<form class="commentform" action="https://api-bridge-staticman.herokuapp.com/v2/entry/Nabstar/blog/master/comments" method="POST">
+<header class="commentheader">
+    <h3>
+        Tell us your thought
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </h3>
+</header>
+<form class="commentform">
     <div class="visitorname">
         <label for="name">
             Name 
@@ -11,9 +15,8 @@
     <div class="visitorcomment">
         <label for="thought">
             Thought 
-            <textarea id="thought" name="fields[message]" rows="5" cols="33"></textarea>
+            <textarea id="thought" rows="5" cols="33" name="fields[message]" required></textarea>
         </label>
     </div>
-
-    <button type="submit">Submit</button>
+    <input class="submitbtn" type="submit" value="Submit" />
 </form>
