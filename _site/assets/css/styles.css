@@ -177,12 +177,14 @@ p {
 }
 
 main {
+    overflow:auto;
     margin: 0px auto 0px auto;
 }
 
 
 footer {
     clear: both;
+    margin-bottom: 56px;
 }
 
 .blog-article {
@@ -244,6 +246,7 @@ footer {
 .main-section {
     width: 680px;
     float: right;
+    margin: 0px 0px 348px 18px
 }
 
 .commentheader {
@@ -297,7 +300,7 @@ footer {
   font-size: 18px;
   margin-top: 5px;
   border: 2px solid black;
-  margin-bottom: 16px;
+  margin-bottom: 48px;
 
 }
 
@@ -306,13 +309,14 @@ footer {
 }
 
 .submitbtn {
-  padding: 8px;
+  padding: 6px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   background-color: black;
   color: white;
   cursor: pointer;
-  width: 120px;
+  width: 100px;
+  margin-bottom: 18px;
 }
 
 .languages {
