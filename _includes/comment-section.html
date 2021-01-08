@@ -6,6 +6,7 @@
     </h3>
 </header>
 <form class="commentform">
+    <input name="options[slug]" type="hidden" value="{{ page.slug }}">
     <div class="visitorname">
         <label for="name">
             Name 
@@ -20,4 +21,5 @@
         </label>
     </div>
     <input class="submitbtn" type="submit" value="Submit" />
+    <div class="hr"></div>
 </form>

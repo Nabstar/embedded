@@ -319,6 +319,12 @@ footer {
   margin-bottom: 18px;
 }
 
+.submittedcomment {
+    background-color: azure;
+    height: 128px;
+    margin: 18px 0 28px 0;
+}
+
 .languages {
     margin-left: 50px;
 }
