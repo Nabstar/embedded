@@ -5,4 +5,20 @@
 </header>
 <section class="submittedcomment">
 
+    {% assign comments = site.data.comments[page.slug] %}
+
+    {% for comment in comments %}              
+        <div class="container">
+            <div class="avatarcontainer">
+                <div class="avatar">
+                </div>
+                <h3 class="author">{{ comment[1].name }}</h3>
+        
+            </div>
+        </div>
+
+        <p class="thought">{{ comment[1].message }}</p>
+    {% endfor %}
+
+
 </section>

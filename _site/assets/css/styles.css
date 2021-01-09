@@ -320,9 +320,37 @@ footer {
 }
 
 .submittedcomment {
-    background-color: azure;
     height: 128px;
     margin: 18px 0 28px 0;
+}
+
+.container {
+    margin: 0px 0px 0px 18px;
+    clear: both;
+    width: 0;
+    height: 0;
+}
+
+.avatar {
+    height: 98px;
+    width: 88px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+.avatarcontainer {
+    width: 108px;
+    height: 118px;
+}
+
+.author {
+    padding: 8px 0px 0px 0px;
+    text-align: center;
+}
+
+.thought {
+    float: left;
+    margin: 12px 0px 0px 138px;
 }
 
 .languages {
