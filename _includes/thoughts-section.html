@@ -6,19 +6,25 @@
 <section class="submittedcomment">
 
     {% assign comments = site.data.comments[page.slug] %}
-
-    {% for comment in comments %}              
-        <div class="container">
-            <div class="avatarcontainer">
-                <div class="avatar">
+    
+    {% if comments %}
+        {% for comment in comments %}              
+            <div class="commentwrapper">
+                <div class="container">
+                    <div class="avatarcontainer">
+                        <div class="avatar">
+                        </div>
+                        <h3 class="author">{{ comment[1].name }}</h3>
+                
+                    </div>
                 </div>
-                <h3 class="author">{{ comment[1].name }}</h3>
-        
+                <p class="thought">{{ comment[1].message }}</p>
             </div>
+        {% endfor %}
+    {% else %} 
+        <div class="container">
+            <h3>No thoughts yet</h3>
         </div>
-
-        <p class="thought">{{ comment[1].message }}</p>
-    {% endfor %}
-
+    {% endif %}
 
 </section>
