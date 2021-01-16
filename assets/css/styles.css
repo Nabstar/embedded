@@ -101,11 +101,11 @@ pre {
 }
 
 .main-header {
-    margin: 24px 0px 20px 62px;
-    font-size: 28px;
+    margin: 24px 0px 20px 25px;
+    font-size: 32px;
     font-weight: bold;
-    height: 48px;
-    line-height: 48px;
+    height: 132px;
+    line-height: 100px;
     text-transform: uppercase;
 }
 
@@ -113,7 +113,7 @@ pre {
     text-decoration: none;
 }
 
-.main-header img {
+.header-logo {
 
     float: left;
     margin: 0px 30px 0px 0px;
@@ -125,6 +125,10 @@ pre {
     float: right;
     text-transform: lowercase;
 
+}
+
+.header-rss {
+    height: 100px;
 }
 
 .page-header {
