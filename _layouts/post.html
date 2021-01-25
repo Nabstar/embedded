@@ -16,7 +16,10 @@
 
                 <article class="blog-article">
                     <header class="article-header">
-                        <h3 class="article-title">{{ page.title }}</h1>
+                        <div class="article-title-container">
+                            <img style="width: inherit;" src="http://hits.dwyl.com/dev-yakuza.github.io{{ page.url }}.svg" alt="hit count image"/>
+                            <h3 class="article-title">{{ page.title }}</h1>
+                        </div>
                         <p class="article-meta">{{ page.date | date_to_string }}</p>
                     </header>
 
@@ -27,7 +30,7 @@
                     </div>
                 
                     <footer class="article-footer">
-                        
+                        <p> {{ page.footer | textilize }} </p>
                     </footer>
                 </article>
 
